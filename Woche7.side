@@ -1,0 +1,74 @@
+{
+  "id": "13da7579-8fe7-43ba-beb7-a5cf29d555b7",
+  "version": "2.0",
+  "name": "Woche7",
+  "url": "https://github.com",
+  "tests": [{
+    "id": "8a203e7c-7dfe-47fb-9b02-6c655ba1c36d",
+    "name": "CheckgithubWoche7",
+    "commands": [{
+      "id": "f584be74-11d3-4734-a839-02a458cfe017",
+      "comment": "",
+      "command": "open",
+      "target": "/Miceli881/Woche7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c422d456-accf-4d46-ae85-70bfc2480106",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1039",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53376aa9-777a-4df9-8b4f-1ddfcc8c3b8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Woche7",
+      "targets": [
+        ["linkText=Woche7", "linkText"],
+        ["css=.mr-2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Woche7')]", "xpath:link"],
+        ["xpath=//div[@id='repository-container-header']/div/div/div/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Miceli881/Woche7')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Woche7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca32fb4-1aef-4bbb-a54e-7e2211f04a0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.avatar > .avatar-user",
+      "targets": [
+        ["css=.avatar > .avatar-user", "css:finder"],
+        ["xpath=(//img[@alt='@Miceli881'])[3]", "xpath:img"],
+        ["xpath=//turbo-frame[@id='repo-content-turbo-frame']/div/div/div[2]/div/div[3]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2958b40a-4ee9-4990-b2b2-92b50ed12fdb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.col-md-2 > .css-truncate",
+      "targets": [
+        ["css=.col-md-2 > .css-truncate", "css:finder"],
+        ["xpath=//turbo-frame[@id='repo-content-turbo-frame']/div/div/div[2]/div/div[3]/div[3]/div/div[2]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CodeQuality-Woche7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ef1525f-19dc-44da-a018-45bd1a0b2666",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8a203e7c-7dfe-47fb-9b02-6c655ba1c36d"]
+  }],
+  "urls": ["https://github.com/"],
+  "plugins": []
+}
